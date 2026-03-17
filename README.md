@@ -26,3 +26,6 @@ We make the following modifications to the original method:
         ```
         python3 test.py --pretrained_dai weights/sd --controlnet weights/unet/checkpoint.pt  --cross_vae weights/cross_vae --input_dir inputs/ntire26_shadow_test_in --output_dir outputs/results/ntire26_shadow_test_out
         ```
+- Results
+- You can download our results via the following link:
+https://drive.google.com/file/d/1CGZq0mwFpmISa7Kf1lipWFBQDnAimM_F/view?usp=drive_link
