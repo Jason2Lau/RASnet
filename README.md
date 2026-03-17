@@ -5,15 +5,18 @@ RASnet borrows the stage 1 and stage 3 training processes from the paper [Derefl
 - Environment
     - pip3 install -r requirements.txt
     - Our experiment was run on CUDA 11.8， and the same configuration is recommended
+
 - Pre-trained Models
     - Ensure that the model weights are stored in the same directory as below.
-      | Dirname      | Directory within the code|
-    |---------------------|-----------|
-    | sd         | weights/sd |
-    | controlnet              | weights/controlnet |
-    | cross_vae   | weights/cross_vae |
+    | Dirname    | Directory within the code|
+    |------------|--------------------------|
+    | sd         | weights/sd               |
+    | controlnet | weights/controlnet       |
+    | cross_vae  | weights/cross_vae        |
+
 - Training
     - code will be released soon
+  
 - Inference
     - example
         ```
