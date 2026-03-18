@@ -4,7 +4,7 @@ We make the following modifications to the original method:
 - 1. In the stage 1, a pixel-space loss function is introduced to alleviate the problem of blurry generated images, while the features of dinov3 are used to enhance shadow removal capabilities.
 - 2. We skipped stage 2 because we found it had limited impact on the final result in this task.
 - 3. In the stage 3, we introduce FFL (Focal Frequency Loss) to help VAE better reconstruct image details.
-## Introduction
+## QUICK START
 - Environment
     - pip3 install -r requirements.txt
     - Our experiment was run on CUDA 11.8， and the same configuration is recommended
@@ -12,11 +12,11 @@ We make the following modifications to the original method:
 - Pre-trained Models
     - Ensure that the model weights are stored in the same directory as below.
 
-    | dirname                                          | dir withing the code |
-    |--------------------------------------------------|----------------------|
-    | sd                                               | weights/sd           |
-    | controlnet                                       | weights/controlnet   |
-    | cross_vae                                        | weights/cross_vae    |
+    | dirname                                          | download link | dir withing the code |
+    |--------------------------------------------------|---------------|----------------------|
+    | sd                                               |        https://drive.google.com/drive/folders/1ideK7KlPjbBSekxam9zvuV-myt75zzAd?usp=drive_link       | weights/sd           |
+    | controlnet                                       |   https://drive.google.com/drive/folders/1fKA1ChQU2TUNDcMBHr9TlJDI2l1dXJTX?usp=drive_link            | weights/controlnet   |
+    | cross_vae                                        |        https://drive.google.com/drive/folders/1H6xlZ30U5PTrLXlStO9TuNy6SykBPB8O?usp=drive_link       | weights/cross_vae    |
 
 - Training
     - code will be released soon
@@ -27,5 +27,5 @@ We make the following modifications to the original method:
         python3 test.py --pretrained_dai weights/sd --controlnet weights/unet/checkpoint.pt  --cross_vae weights/cross_vae --input_dir inputs/ntire26_shadow_test_in --output_dir outputs/results/ntire26_shadow_test_out
         ```
 - Results
-- You can download our results via the following link:
-https://drive.google.com/file/d/1CGZq0mwFpmISa7Kf1lipWFBQDnAimM_F/view?usp=drive_link
+  - You can download our results via the following link:
+    - https://drive.google.com/file/d/1CGZq0mwFpmISa7Kf1lipWFBQDnAimM_F/view?usp=drive_link
