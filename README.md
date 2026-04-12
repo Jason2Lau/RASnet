@@ -1,4 +1,4 @@
-# NTIRE 2026 Challenge on Image Shadow Removal
+# NTIRE 2026 Challenge on Image Shadow Removal(https://cvlai.net/ntire/2026/)
 
 <div align=center>
 <img src="https://github.com/Jason2Lau/RASnet/blob/master/figs/logo.png" width="400px"/> 
