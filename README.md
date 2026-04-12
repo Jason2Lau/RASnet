@@ -1,7 +1,7 @@
 # NTIRE 2026 Challenge on Image Shadow Removal
 
 <div align=center>
-<img src="https://github.com/Jason2Lau/RASnet/figs/logo.png" width="400px"/> 
+<img src="https://github.com/Jason2Lau/RASnet/blob/master/figs/logo.png" width="400px"/> 
 </div>
 
 RASnet borrows the stage 1 and stage 3 training processes from the paper [Dereflection Any Image with Diffusion Priors and Diversified Data](https://arxiv.org/pdf/2503.17347), and extends them to become the algorithm used in the NTIRE 2026 Image Shadow Removal Challenge.
