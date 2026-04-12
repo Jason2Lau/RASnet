@@ -1,4 +1,9 @@
-# RASnet
+# NTIRE 2026 Challenge on Image Shadow Removal
+
+<div align=center>
+<img src="https://https://github.com/Jason2Lau/RASnet/figs/logo.png" width="400px"/> 
+</div>
+
 RASnet borrows the stage 1 and stage 3 training processes from the paper [Dereflection Any Image with Diffusion Priors and Diversified Data](https://arxiv.org/pdf/2503.17347), and extends them to become the algorithm used in the NTIRE 2026 Image Shadow Removal Challenge.
 We make the following modifications to the original method:
 - 1. In the stage 1, a pixel-space loss function is introduced to alleviate the problem of blurry generated images, while the features of dinov3 are used to enhance shadow removal capabilities.
@@ -14,9 +19,9 @@ We make the following modifications to the original method:
 
     | dirname                                          | download link | dir withing the code |
     |--------------------------------------------------|---------------|----------------------|
-    | sd                                               |        https://drive.google.com/drive/folders/1ideK7KlPjbBSekxam9zvuV-myt75zzAd?usp=drive_link       | weights/sd           |
-    | controlnet                                       |   https://drive.google.com/drive/folders/1fKA1ChQU2TUNDcMBHr9TlJDI2l1dXJTX?usp=drive_link            | weights/controlnet   |
-    | cross_vae                                        |        https://drive.google.com/drive/folders/1H6xlZ30U5PTrLXlStO9TuNy6SykBPB8O?usp=drive_link       | weights/cross_vae    |
+    | sd                                               |        https://drive.google.com/drive/folders/1w71cca44VKyhMZHX0lqCNDJKkpl1B_ha?usp=drive_link       | weights/sd           |
+    | controlnet                                       |   https://drive.google.com/drive/folders/1H6xlZ30U5PTrLXlStO9TuNy6SykBPB8O?usp=drive_link            | weights/controlnet   |
+    | cross_vae                                        |        https://drive.google.com/drive/folders/1Bk2TSmPLWDACSY4If_DTGXbIPo2iS50g?usp=drive_link       | weights/cross_vae    |
 
 - Training
     - code will be released soon
